@@ -1,0 +1,39 @@
+/*
+Custom CSS styles that override base theme go here.
+*/
+
+.header-block .course-venue-date {
+  font-size:22px;
+}
+
+.front .views-field-field-hero-image,
+.page-accreditation .views-field-field-hero-image {
+  width:100%;
+  float:none;
+}
+
+.front .hero-copy,
+.page-accreditation .hero-copy {
+  display:none;
+}
+
+.header-block p.course-name a {
+  line-height: auto;
+}
+
+.header-block {
+background-image:none;
+padding-right:0;
+position:relative;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+ color:#0000ff;
+}
+
+.contact-link a {
+  color: #544e49;
+}
