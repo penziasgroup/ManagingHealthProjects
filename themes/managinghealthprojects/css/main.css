@@ -22,9 +22,9 @@ Custom CSS styles that override base theme go here.
 }
 
 .header-block {
-background-image:none;
-padding-right:0;
-position:relative;
+  background-image:none;
+  padding-right:0;
+  position:relative;
 }
 
 a,
@@ -36,4 +36,27 @@ a:visited {
 
 .contact-link a {
   color: #544e49;
+}
+
+.online-reg, .print-reg {
+  display:block;
+}
+
+.block-course-info .earlybird,
+.block-course-info .earlybird-expired {
+  background-color:#830808;
+}
+
+.bio-full,
+.close-me,
+.open .read-more {
+  display:none;
+}
+
+.open .close-me {
+  display:block;
+}
+
+.brochure-block .contact-link {
+  display:none;
 }
