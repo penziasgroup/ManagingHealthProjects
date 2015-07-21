@@ -2,6 +2,32 @@
 Custom CSS styles that override base theme go here.
 */
 
+.header-block p.course-name a {
+  font-size:30px;
+}
+
+.header-block p.course-slogan {
+  font-size:18px;
+  margin-top:-9px;
+}
+
+.header-block p.course-city-state {
+  font-size:20px;
+  margin-top:15px;
+}
+
+.header-block p.course-venue-date {
+  font-size:18px;
+}
+
+.menu li.participant-experience {
+  width:20%;
+}
+
+.menu li.overview {
+  width:13%;
+}
+
 .header-block .course-venue-date {
   font-size:22px;
 }
@@ -59,4 +85,68 @@ a:visited {
 
 .brochure-block .contact-link {
   display:none;
+}
+
+@media (max-width:1015px) {
+  .menu li {
+    width:16%;
+  }
+
+  .nav ul.menu li.schedule,
+  .nav ul.menu li.faculty {
+    width:13%;
+  }
+  
+  .menu li.participant-experience {
+    width:21%;
+  }
+
+  .nav ul.menu li.registration-information {
+    width:23.4%;
+  }
+}
+
+@media (max-width:950px) {
+  
+}
+
+@media (max-width:850px) {
+  .menu li {
+    width:17%;
+  }
+
+  .menu li.participant-experience {
+    width:22%;
+  }
+
+  .nav ul.menu li.overview,
+  .nav ul.menu li.schedule,
+  .nav ul.menu li.faculty {
+    width:12%;
+  }  
+
+  .nav ul.menu li.registration-information {
+    width:24%;
+  }
+}
+
+@media (max-width:950px) and (min-width:840px) {
+.header-block p.course-name a {
+  font-size:22px;
+}
+
+.header-block p.course-slogan {
+  font-size:16px;
+  margin-top:-9px;
+}
+
+.header-block p.course-city-state {
+  font-size:20px;
+  margin-top:15px;
+}
+
+.header-block p.course-venue-date {
+  font-size:18px;
+}
+
 }
