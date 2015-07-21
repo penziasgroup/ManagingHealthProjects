@@ -2,6 +2,31 @@
 Custom CSS styles that override base theme go here.
 */
 
+.region-header .block {
+  margin-bottom:0;
+}
+
+.header-block .header-left {
+  float:left;
+  overflow:hidden;
+  width:60%;
+}
+
+.header-block .header-right {
+  float:right;
+  overflow:hidden;
+  width:40%;
+  max-width:386px;
+  padding-top:30px;
+}
+
+.header-right img {
+  width:100%;
+  max-width: 386px;
+  height:auto;
+  display: block;
+}
+
 .header-block p.course-name a {
   font-size:30px;
 }
@@ -87,6 +112,34 @@ a:visited {
   display:none;
 }
 
+@media (max-width:1150px) {
+  .header-block p.course-name a {
+    font-size:27px;
+  }
+
+}
+
+@media (max-width:1050px) {
+
+  .header-block p.course-name a {
+    font-size:22px;
+  }
+
+  .header-block p.course-slogan {
+    font-size:16px;
+    margin-top:-9px;
+  }
+
+  .header-block p.course-city-state,
+  .header-block p.course-venue-date {
+    font-size: 17px;
+  }
+
+  .header-block p.course-city-state {
+    margin-top: 13px;
+  }  
+}
+
 @media (max-width:1015px) {
   .menu li {
     width:16%;
@@ -106,8 +159,17 @@ a:visited {
   }
 }
 
-@media (max-width:950px) {
-  
+@media (max-width:880px) {
+  .header-block p.course-name a {
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .header-block p.course-venue-date {
+    line-height:20px;
+  }
 }
 
 @media (max-width:850px) {
@@ -130,23 +192,17 @@ a:visited {
   }
 }
 
-@media (max-width:950px) and (min-width:840px) {
-.header-block p.course-name a {
-  font-size:22px;
-}
+@media (max-width:790px) {
+  .header-block .header-left,
+  .header-block .header-right {
+    width:100%;
+    float:none;
+    clear:both;
+    padding:0;
+  }
 
-.header-block p.course-slogan {
-  font-size:16px;
-  margin-top:-9px;
-}
-
-.header-block p.course-city-state {
-  font-size:20px;
-  margin-top:15px;
-}
-
-.header-block p.course-venue-date {
-  font-size:18px;
-}
-
+  .header-block,
+  .header-block p.course-name a {
+    padding:0;
+  }
 }
