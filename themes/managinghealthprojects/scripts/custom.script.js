@@ -1,5 +1,7 @@
 jQuery(document).ready(function($) {
 
+$('.brochure-block .earlybird a').text('Register');
+
 if($('body').hasClass('page-faculty')) {
   $('.bio-full-toggle a').click(
     function() {

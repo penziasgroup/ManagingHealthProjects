@@ -92,6 +92,11 @@ a:visited {
 .online-reg, .print-reg {
   display:block;
 }
+.online-reg a,
+.online-reg a:active,
+.online-reg a:visited {
+  color:#830808;
+}
 
 .block-course-info .earlybird,
 .block-course-info .earlybird-expired {

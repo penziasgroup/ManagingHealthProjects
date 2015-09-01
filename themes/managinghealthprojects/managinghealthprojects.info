@@ -13,6 +13,7 @@
 
   ; See each stylesheet for extensive documentation and help.
   stylesheets[screen][] = css/main.css
+  stylesheets[print][] = css/print.css
   scripts[] = scripts/custom.script.js
 
 ;----------// Regions
