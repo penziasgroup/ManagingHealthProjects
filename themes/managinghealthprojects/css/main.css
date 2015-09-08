@@ -113,7 +113,8 @@ a:visited {
   display:block;
 }
 
-.brochure-block .contact-link {
+
+#block-course-info-course-brochure .brochure-block .contact-link {
   display:none;
 }
 
