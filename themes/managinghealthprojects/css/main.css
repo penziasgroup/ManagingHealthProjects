@@ -64,7 +64,8 @@
 }
 
 .front .hero-copy,
-.page-accreditation .hero-copy {
+.page-accreditation .hero-copy,
+.page-participant-experience .hero-copy {
   display:none;
 }
 
